@@ -1,0 +1,115 @@
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont,Raleway, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#promo h1 {
+  font-weight: bold;
+}
+
+#promo p {
+  font-size: large;
+}
+
+#logo {
+  max-height: 140px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.navbar {
+  background-color: white;
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/Tecnologia.jpg);
+  background-size: cover;
+}
+
+@media (max-width: 800px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius: 30px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 360) {
+  #promo .jumbotron {
+    padding: 60px 0;
+  }
+}
+
+#bienvenido p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+  color: #666;
+}
+
+.site-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.dark-section {
+  background-color: #b0d9ea;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+#porque .item {
+  padding-top: 36px;
+}
+
+#porque .item i {
+  font-size: 42px;
+  color: rgb(234,131,0);
+}
+
+#porque .item h2 {
+  font-weight: normal;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#porque p {
+  color: #de3b07;
+}
+
+.dropdown-menu.show {
+  margin-left: -40px;
+  background-color: #e78200;
+}
+
+#dropdown-h1 {
+  margin-left: -38px;
+}
+
+h1 {
+  font-size: x-large;
+  font-weight: normal;
+}
+
+.container.text-center {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.container.text-center {
+  padding: 25px;
+}
+
